@@ -1,0 +1,12 @@
+# @package _global_
+#
+dataset:
+        name: 'got'
+        filelist: ''
+        boxlist: ''
+        polygon: False
+        inputsize: [128,128]
+        save_dir: 'stored_data/got_features/${hparams.exp_name}'
+        data_dir: 'data/GOT/'
+        stride: 1 # Use all
+        max_videos: 10000000 # Use all

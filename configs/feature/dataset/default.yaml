@@ -1,0 +1,8 @@
+# @package _global_
+#
+dataset:
+        name: 'unknown'
+        filelist: ''
+        boxlist: ''
+        polygon: False
+        inputsize: [128,128]

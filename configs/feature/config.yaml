@@ -1,0 +1,4 @@
+defaults:
+        - hparams: default
+        - dataset: default
+        - model: default

@@ -1,0 +1,11 @@
+# @package _global_
+#
+dataset:
+        name: 'aloi'
+        type: 'viewpoint'
+        filelist: ''
+        boxlist: ''
+        polygon: False
+        save_dir: 'stored_data/aloi_${dataset.type}_features/${hparams.exp_name}'
+        data_dir: 'data/ALOI_${dataset.type}/'
+        inputsize: [128,128]

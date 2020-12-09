@@ -1,0 +1,18 @@
+# @package _global_
+#
+model:
+        arch: 'resnet50'
+
+        # none (no FC), mlp (moco style mlp) or '' (standard resnet fc)
+        saved_fc_type: 'none' 
+
+        load_path: ''
+
+        extract_before_fc: True # (delete FC after loading model)
+        imnet_pretrained: False
+        feat_dim: 128 # (set 1000 for imagenet)
+        
+        # list of tuple of strings - replace replace_key[i][0] with replace_key[i][1] in state_dict
+        # easier loading of different models
+        replace_key: [] 
+

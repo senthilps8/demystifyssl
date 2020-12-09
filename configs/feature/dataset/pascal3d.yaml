@@ -1,0 +1,10 @@
+# @package _global_
+#
+dataset:
+        name: 'pascal3dimnet'
+        filelist: ''
+        boxlist: ''
+        polygon: False
+        inputsize: [128,128]
+        data_dir: 'data/pascal3d'
+        save_dir: 'stored_data/${dataset.name}_features/${hparams.exp_name}/'

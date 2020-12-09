@@ -1,0 +1,6 @@
+dataset:
+        name: 'imagenet'
+        filelist: ''
+        boxlist: ''
+        polygon: False
+        inputsize: 128
